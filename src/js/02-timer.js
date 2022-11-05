@@ -1,8 +1,8 @@
-const timerStart =  document.querySelector('button[data-start]');
+const startBtn =  document.querySelector('button[data-start]');
 const timerSet =  document.querySelector('#datetime-picker');
 
-
-timerStart.addEventListener('click', dateSet)
+startBtn.setAttribute("disabled", "");
+startBtn.addEventListener('click', dateSet)
 
 function dateSet () {
     
