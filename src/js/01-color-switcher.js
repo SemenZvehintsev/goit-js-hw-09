@@ -6,6 +6,8 @@ const body = document.querySelector('body')
 startBtn.addEventListener('click', colorSwitch)
 stopBtn.addEventListener('click', colorSwitchStop)
 
+let timer
+
 function colorSwitch() {
     timer = setInterval(bgColor, 1000)
     startBtn.setAttribute("disabled", true);
