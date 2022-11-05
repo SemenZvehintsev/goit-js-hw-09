@@ -41,13 +41,13 @@ class ColorSwitcher {
 
     colorSwitch() {
         this.timer = setInterval(this.bgColor, 1000)
-        this.startBtn.setAttribute("disabled");
+        this.startBtn.setAttribute("disabled", true);
         this.stopBtn.removeAttribute("disabled");
     }
     
     colorSwitchStop() {
         clearInterval(this.timer)
-        this.stopBtn.setAttribute("disabled");
+        this.stopBtn.setAttribute("disabled", true);
         this.startBtn.removeAttribute("disabled");
     }
     
