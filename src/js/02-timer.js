@@ -7,7 +7,7 @@ import "flatpickr/dist/flatpickr.min.css";
 const startBtn =  document.querySelector('button[data-start]');
 const timerSet =  document.querySelector('#datetime-picker');
 
-startBtn.setAttribute("disabled", "");
+startBtn.setAttribute("disabled", true);
 startBtn.addEventListener('click', dateSet)
 
 function dateSet () {
