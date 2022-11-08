@@ -14,7 +14,6 @@ startBtn.addEventListener('click', timerOn)
 
 let pickTime;
 let date;
-let ms;
 let timerGo;
 
 const options = {
@@ -54,7 +53,6 @@ function timerStop() {
     clearInterval(timerGo)
     timerSet.removeAttribute("disabled");
   }
-
 }
 
 function convertMs() {
