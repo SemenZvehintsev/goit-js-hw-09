@@ -2,7 +2,7 @@
 
 
 
-const inputDelay = document.querySelector('a')
+const inputDelay = document.querySelector('form')
 
 
 console.log(inputDelay)
