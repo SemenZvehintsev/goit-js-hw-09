@@ -63,7 +63,7 @@ function convertMs() {
     const day = hour * 24;
   
     date = new Date();
-    ms = pickTime.getTime() - date.getTime();
+    const ms = pickTime.getTime() - date.getTime();
     // Remaining days
     const days = Math.floor(ms / day);
     // Remaining hours
